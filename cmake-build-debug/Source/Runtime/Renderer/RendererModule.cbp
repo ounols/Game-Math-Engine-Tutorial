@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RendererModule"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Source\;CMake Files\Source\Runtime\;CMake Files\Source\Runtime\Engine\;CMake Files\Source\Runtime\Math\;CMake Files\Source\Runtime\Renderer\;CMake Files\Source\Player\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Programming/Tutorial/gamemath/gamemath-10-1/cmake-build-debug/Source/Runtime/Renderer"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RendererModule">
+				<Option output="C:/Programming/Tutorial/gamemath/gamemath-10-1/Output/Windows/Library/RendererModule.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Programming/Tutorial/gamemath/gamemath-10-1/cmake-build-debug/Source/Runtime/Renderer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DPLATFORM_WINDOWS"/>
+					<Add option="-DWindows"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/ThirdParty"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 RendererModule"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RendererModule/fast">
+				<Option output="C:/Programming/Tutorial/gamemath/gamemath-10-1/Output/Windows/Library/RendererModule.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Programming/Tutorial/gamemath/gamemath-10-1/cmake-build-debug/Source/Runtime/Renderer"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DPLATFORM_WINDOWS"/>
+					<Add option="-DWindows"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/ThirdParty"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 RendererModule/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Renderer\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Precompiled.cpp">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Precompiled.h">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Private/2D/Shader.cpp">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Private/2D/Vertex.cpp">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Private/3D/PerspectiveTest.cpp">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Private/3D/Shader.cpp">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Private/3D/Vertex.cpp">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Private/Windows/WindowsGDI.cpp">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Private/Windows/WindowsRSI.cpp">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public/2D/Shader.h">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public/2D/Vertex.h">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public/3D/PerspectiveTest.h">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public/3D/Shader.h">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public/3D/Vertex.h">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public/RendererHeaders.h">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public/RendererInterface.h">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public/Windows/WindowsGDI.h">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/Public/Windows/WindowsRSI.h">
+			<Option target="RendererModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Source\Runtime\Engine\"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Source\Runtime\Math\"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Source\Runtime\Renderer\"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Player/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Source\Player\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

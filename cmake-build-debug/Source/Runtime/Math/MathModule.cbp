@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MathModule"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Source\;CMake Files\Source\Runtime\;CMake Files\Source\Runtime\Engine\;CMake Files\Source\Runtime\Math\;CMake Files\Source\Runtime\Renderer\;CMake Files\Source\Player\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Programming/Tutorial/gamemath/gamemath-10-1/cmake-build-debug/Source/Runtime/Math"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MathModule">
+				<Option output="C:/Programming/Tutorial/gamemath/gamemath-10-1/Output/Windows/Library/MathModule.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Programming/Tutorial/gamemath/gamemath-10-1/cmake-build-debug/Source/Runtime/Math"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DPLATFORM_WINDOWS"/>
+					<Add option="-DWindows"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/ThirdParty"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 MathModule"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MathModule/fast">
+				<Option output="C:/Programming/Tutorial/gamemath/gamemath-10-1/Output/Windows/Library/MathModule.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Programming/Tutorial/gamemath/gamemath-10-1/cmake-build-debug/Source/Runtime/Math"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DPLATFORM_WINDOWS"/>
+					<Add option="-DWindows"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public"/>
+					<Add directory="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/ThirdParty"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 MathModule/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Programming\Tutorial\gamemath\gamemath-10-1\cmake-build-debug\Source\Runtime\Math\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Precompiled.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Precompiled.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Box.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Circle.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Color32.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Frustum.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/LinearColor.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Math.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Matrix2x2.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Matrix3x3.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Matrix4x4.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Plane.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Quaternion.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Rectangle.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Rotator.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Sphere.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Transform.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Vector2.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Vector3.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Private/Vector4.cpp">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Box.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Circle.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Color32.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/CoreDefinition.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Frustum.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/HSVColor.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/LinearColor.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/MathHeaders.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/MathUtil.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Matrix2x2.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Matrix3x3.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Matrix4x4.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Plane.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Platform.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Quaternion.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Rectangle.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Rotator.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/ScreenPoint.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Sphere.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Transform.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Vector2.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Vector3.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Vector4.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/Public/Windows/WindowsPlatform.h">
+			<Option target="MathModule"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Engine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Source\Runtime\Engine\"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Source\Runtime\Math\"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Runtime/Renderer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Source\Runtime\Renderer\"/>
+		</Unit>
+		<Unit filename="C:/Programming/Tutorial/gamemath/gamemath-10-1/Source/Player/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Source\Player\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
